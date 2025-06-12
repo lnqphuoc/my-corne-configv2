@@ -10,6 +10,15 @@
 #include <dt-bindings/zmk/rgb.h>
 
 / {
+    combos {
+        compatible = "zmk,combos";
+
+        screenshot {
+            bindings = <&kp LC(LG(LS(NUMBER_4)))>;
+            key-positions = <0 12 24>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
