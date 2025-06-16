@@ -17,6 +17,41 @@
             bindings = <&kp LC(LG(LS(NUMBER_4)))>;
             key-positions = <0 12 24>;
         };
+
+        parenthesis {
+            bindings = <&kp LEFT_PARENTHESIS>;
+            key-positions = <6 7>;
+        };
+
+        rightparenthesis {
+            bindings = <&kp RIGHT_PARENTHESIS>;
+            key-positions = <8 9>;
+        };
+
+        leftbracket {
+            bindings = <&kp LEFT_BRACKET>;
+            key-positions = <18 19>;
+        };
+
+        rightbracket {
+            bindings = <&kp RIGHT_BRACKET>;
+            key-positions = <20 21>;
+        };
+
+        leftbravket {
+            bindings = <&kp LEFT_BRACE>;
+            key-positions = <30 31>;
+        };
+
+        asdfasdf {
+            bindings = <&kp RIGHT_BRACE>;
+            key-positions = <32 33>;
+        };
+
+        escape {
+            bindings = <&kp ESCAPE>;
+            key-positions = <19 20>;
+        };
     };
 
     keymap {
