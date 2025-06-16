@@ -52,6 +52,21 @@
             bindings = <&kp ESCAPE>;
             key-positions = <19 20>;
         };
+
+        equal {
+            bindings = <&kp EQUAL>;
+            key-positions = <16 17>;
+        };
+
+        bigger {
+            bindings = <&kp GREATER_THAN>;
+            key-positions = <4 5>;
+        };
+
+        lesser {
+            bindings = <&kp LESS_THAN>;
+            key-positions = <4 3>;
+        };
     };
 
     keymap {
