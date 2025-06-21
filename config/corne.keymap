@@ -17,6 +17,11 @@
             bindings = <&kp LC(LG(LS(NUMBER_4)))>;
             key-positions = <0 12 24>;
         };
+
+        escape {
+            bindings = <&kp ESCAPE>;
+            key-positions = <19 20>;
+        };
     };
 
     keymap {
