@@ -11,13 +11,14 @@
 
 / {
     behaviors {
-        // Configure quick-tap-ms for better home row mods
-        // This prevents accidental modifier activation when typing quickly
-        quick-tap-ms = <150>;
-        
-        // Adjust tapping term for home row mods
-        // Increase this value if you need more time to hold for modifiers
-        tapping-term-ms = <250>;
+        mt: mod_tap {
+            compatible = "zmk,behavior-hold-tap";
+            #binding-cells = <2>;
+            flavor = "tap-preferred";
+            tapping-term-ms = <200>;
+            bindings = <&kp>, <&kp>;
+            display-name = "Mod-Tap";
+        };
     };
 
     combos {
