@@ -10,6 +10,16 @@
 #include <dt-bindings/zmk/rgb.h>
 
 / {
+    behaviors {
+        // Configure quick-tap-ms for better home row mods
+        // This prevents accidental modifier activation when typing quickly
+        quick-tap-ms = <150>;
+        
+        // Adjust tapping term for home row mods
+        // Increase this value if you need more time to hold for modifiers
+        tapping-term-ms = <250>;
+    };
+
     combos {
         compatible = "zmk,combos";
 
